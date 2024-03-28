@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Text Generator</title>
+</head>
+<style>
+    header
+    {
+        display: flex;
+        justify-content: center;
+        color: #554f87e6;
+    }
+    *
+    {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    body{
+        background-color: #3120c799;
+    }
+    .input
+    {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .txtGenerated
+    {
+        background-color: blanchedalmond;
+        height: 100px;
+        box-shadow: 4px 6px 19px 1px black;
+        overflow: auto;
+        padding: 10px;
+        border-radius: 10px;
+        color: rgb(59, 59, 59);
+        
+    }
+    .box
+    {
+        border-radius: 6px;
+       
+        margin: 10px;
+        
+    }
+
+</style>
+
+<body>
+    <header>
+        <h1>RANDOM TEXT GENERATOR</h1>
+    </header>
+    <div class="text">
+        <div class="input">
+            <input type="number" class="box" id="noOfwords" placeholder="Enter number of words..">
+            <button class = "box" onclick="calculate()">Enter </button>
+            
+        </div>
+        
+        <div class="txtGenerated">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
